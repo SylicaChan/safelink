@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "popeme";
+    src: url();
+}
+
+body {
+    background-image: url(https://scontent.fjog2-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/62544024_375341286662111_852743220927397888_o.jpg?_nc_cat=101&efg=eyJpIjoiYiJ9&_nc_oc=AQnNC_vlZCQu3s-0iJF06d89n3t0U44A8t_6ktxqMo041OS_FhzgWuJ7cuyZE-MsH0A&_nc_ht=scontent.fjog2-1.fna&_nc_tp=14&oh=f45b948c59e1fd85937cd5c859a80325&oe=5EC16AB0);
+    background-size: cover;
+    margin-top: 5%;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+a,
+a:visited {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    font-family: Alegreya Sans SC;
+    cursor: pointer;
+}
+
+.caja {
+    background-color: #64355185;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid #ff17d5;
+}
+
+span {
+    cursor: no-drop;
+}
+
+.boton {
+    background-color: #f22ccf;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+    width: 50%;
+    height: 50px;
+    margin: 25px 25px 25px 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.boton.is-hovered,
+.boton:hover {
+    background-color: #ff67e4;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 480px) {
+    .caja {
+        width: 85%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 500px;
+    }
+    .boton {
+        width: 70%;
+        height: 50px;
+    }
+}
